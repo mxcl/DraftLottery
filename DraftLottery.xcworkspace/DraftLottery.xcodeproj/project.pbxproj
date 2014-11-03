@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		632FA46A19C64C9400412C43 /* ViewController.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632FA46919C64C9400412C43 /* ViewController.View.swift */; };
+		632FA46C19C650BC00412C43 /* UIImage+LaunchImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632FA46B19C650BC00412C43 /* UIImage+LaunchImage.swift */; };
+		6336CAF419C6673E00BACA7D /* LotteryTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6336CAF319C6673E00BACA7D /* LotteryTicket.swift */; };
+		635ED26319C56D7300EC23E1 /* UIView+AllSubviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635ED26219C56D7300EC23E1 /* UIView+AllSubviews.swift */; };
+		635ED26519C56DB600EC23E1 /* YearlessDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635ED26419C56DB600EC23E1 /* YearlessDatePicker.swift */; };
+		635ED26719C56DD900EC23E1 /* Int+Ordinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635ED26619C56DD900EC23E1 /* Int+Ordinal.swift */; };
+		6374DE2719C5408C007E54A2 /* UILabel{UIDatePicker}+MyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6374DE2619C5408C007E54A2 /* UILabel{UIDatePicker}+MyColor.swift */; };
+		6374DE2919C54989007E54A2 /* UIColor+Military.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6374DE2819C54989007E54A2 /* UIColor+Military.swift */; };
+		637DB53F19BCEE58005EB3F0 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DB53E19BCEE58005EB3F0 /* Main.swift */; };
+		637DB54119BCEE58005EB3F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637DB54019BCEE58005EB3F0 /* ViewController.swift */; };
+		637DB54619BCEE58005EB3F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 637DB54519BCEE58005EB3F0 /* Images.xcassets */; };
+		6391E8541A0808C600427D65 /* AYVibrantButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6391E8531A0808C600427D65 /* AYVibrantButton.m */; };
+		6395694C19E0705B005E9E2D /* UIDevice+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6395694B19E0705B005E9E2D /* UIDevice+Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		632FA46919C64C9400412C43 /* ViewController.View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.View.swift; path = ../ViewController.View.swift; sourceTree = SOURCE_ROOT; };
+		632FA46B19C650BC00412C43 /* UIImage+LaunchImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+LaunchImage.swift"; path = "../Extensions/UIImage+LaunchImage.swift"; sourceTree = SOURCE_ROOT; };
+		6336CAF319C6673E00BACA7D /* LotteryTicket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LotteryTicket.swift; path = ../LotteryTicket.swift; sourceTree = SOURCE_ROOT; };
+		635ED26219C56D7300EC23E1 /* UIView+AllSubviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+AllSubviews.swift"; path = "../Extensions/UIView+AllSubviews.swift"; sourceTree = SOURCE_ROOT; };
+		635ED26419C56DB600EC23E1 /* YearlessDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = YearlessDatePicker.swift; path = ../YearlessDatePicker.swift; sourceTree = "<group>"; };
+		635ED26619C56DD900EC23E1 /* Int+Ordinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Int+Ordinal.swift"; path = "../Extensions/Int+Ordinal.swift"; sourceTree = SOURCE_ROOT; };
+		6374DE2619C5408C007E54A2 /* UILabel{UIDatePicker}+MyColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UILabel{UIDatePicker}+MyColor.swift"; path = "../Extensions/UILabel{UIDatePicker}+MyColor.swift"; sourceTree = SOURCE_ROOT; };
+		6374DE2819C54989007E54A2 /* UIColor+Military.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Military.swift"; path = "../Extensions/UIColor+Military.swift"; sourceTree = SOURCE_ROOT; };
+		637DB53D19BCEE58005EB3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Resources/Info.plist; sourceTree = SOURCE_ROOT; };
+		637DB53E19BCEE58005EB3F0 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Main.swift; path = ../Main.swift; sourceTree = SOURCE_ROOT; };
+		637DB54019BCEE58005EB3F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = SOURCE_ROOT; };
+		637DB54519BCEE58005EB3F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = SOURCE_ROOT; };
+		637DB55919BD01B9005EB3F0 /* mk-lottery-switch.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = "mk-lottery-switch.rb"; path = "../Resources/mk-lottery-switch.rb"; sourceTree = SOURCE_ROOT; };
+		637DB55B19BD1622005EB3F0 /* DraftLottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DraftLottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6391E8521A0808C600427D65 /* AYVibrantButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AYVibrantButton.h; path = ../Vendor/AYVibrantButton.h; sourceTree = "<group>"; };
+		6391E8531A0808C600427D65 /* AYVibrantButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AYVibrantButton.m; path = ../Vendor/AYVibrantButton.m; sourceTree = "<group>"; };
+		6395694B19E0705B005E9E2D /* UIDevice+Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIDevice+Model.swift"; path = "../Extensions/UIDevice+Model.swift"; sourceTree = SOURCE_ROOT; };
+		63ACD5D919C563D50009E94B /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		637DB53619BCEE58005EB3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6336CAF219C6543F00BACA7D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				635ED26619C56DD900EC23E1 /* Int+Ordinal.swift */,
+				6374DE2819C54989007E54A2 /* UIColor+Military.swift */,
+				6374DE2619C5408C007E54A2 /* UILabel{UIDatePicker}+MyColor.swift */,
+				632FA46B19C650BC00412C43 /* UIImage+LaunchImage.swift */,
+				635ED26219C56D7300EC23E1 /* UIView+AllSubviews.swift */,
+				6395694B19E0705B005E9E2D /* UIDevice+Model.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		637DB52E19BCEDFD005EB3F0 = {
+			isa = PBXGroup;
+			children = (
+				637DB53E19BCEE58005EB3F0 /* Main.swift */,
+				637DB54019BCEE58005EB3F0 /* ViewController.swift */,
+				632FA46919C64C9400412C43 /* ViewController.View.swift */,
+				635ED26419C56DB600EC23E1 /* YearlessDatePicker.swift */,
+				6336CAF319C6673E00BACA7D /* LotteryTicket.swift */,
+				6336CAF219C6543F00BACA7D /* Extensions */,
+				6391E8551A0808CD00427D65 /* Vendor */,
+				BC6E6071803770BCB692E0F6 /* … */,
+				637DB54519BCEE58005EB3F0 /* Images.xcassets */,
+			);
+			sourceTree = "<group>";
+		};
+		6391E8551A0808CD00427D65 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				6391E8521A0808C600427D65 /* AYVibrantButton.h */,
+				6391E8531A0808C600427D65 /* AYVibrantButton.m */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		BC6E6071803770BCB692E0F6 /* … */ = {
+			isa = PBXGroup;
+			children = (
+				637DB55919BD01B9005EB3F0 /* mk-lottery-switch.rb */,
+				63ACD5D919C563D50009E94B /* bridge.h */,
+				637DB53D19BCEE58005EB3F0 /* Info.plist */,
+				637DB55B19BD1622005EB3F0 /* DraftLottery.app */,
+			);
+			name = "…";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		637DB53819BCEE58005EB3F0 /* DraftLottery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 637DB55319BCEE59005EB3F0 /* Build configuration list for PBXNativeTarget "DraftLottery" */;
+			buildPhases = (
+				637DB53519BCEE58005EB3F0 /* Sources */,
+				637DB53619BCEE58005EB3F0 /* Frameworks */,
+				637DB53719BCEE58005EB3F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DraftLottery;
+			productName = DraftLottery;
+			productReference = 637DB55B19BD1622005EB3F0 /* DraftLottery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		637DB52F19BCEDFD005EB3F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					637DB53819BCEE58005EB3F0 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = ZU76A67LGU;
+					};
+				};
+			};
+			buildConfigurationList = 637DB53219BCEDFD005EB3F0 /* Build configuration list for PBXProject "DraftLottery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 637DB52E19BCEDFD005EB3F0;
+			productRefGroup = 637DB52E19BCEDFD005EB3F0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				637DB53819BCEE58005EB3F0 /* DraftLottery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		637DB53719BCEE58005EB3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637DB54619BCEE58005EB3F0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		637DB53519BCEE58005EB3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				637DB54119BCEE58005EB3F0 /* ViewController.swift in Sources */,
+				6374DE2919C54989007E54A2 /* UIColor+Military.swift in Sources */,
+				632FA46A19C64C9400412C43 /* ViewController.View.swift in Sources */,
+				6336CAF419C6673E00BACA7D /* LotteryTicket.swift in Sources */,
+				6391E8541A0808C600427D65 /* AYVibrantButton.m in Sources */,
+				637DB53F19BCEE58005EB3F0 /* Main.swift in Sources */,
+				635ED26719C56DD900EC23E1 /* Int+Ordinal.swift in Sources */,
+				6374DE2719C5408C007E54A2 /* UILabel{UIDatePicker}+MyColor.swift in Sources */,
+				632FA46C19C650BC00412C43 /* UIImage+LaunchImage.swift in Sources */,
+				635ED26319C56D7300EC23E1 /* UIView+AllSubviews.swift in Sources */,
+				6395694C19E0705B005E9E2D /* UIDevice+Model.swift in Sources */,
+				635ED26519C56DB600EC23E1 /* YearlessDatePicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		637DB53319BCEDFD005EB3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		637DB53419BCEDFD005EB3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		637DB55419BCEE59005EB3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/../Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		637DB55519BCEE59005EB3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/../Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = bridge.h;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		637DB53219BCEDFD005EB3F0 /* Build configuration list for PBXProject "DraftLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637DB53319BCEDFD005EB3F0 /* Debug */,
+				637DB53419BCEDFD005EB3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		637DB55319BCEE59005EB3F0 /* Build configuration list for PBXNativeTarget "DraftLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				637DB55419BCEE59005EB3F0 /* Debug */,
+				637DB55519BCEE59005EB3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 637DB52F19BCEDFD005EB3F0 /* Project object */;
+}
