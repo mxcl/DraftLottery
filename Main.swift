@@ -27,9 +27,9 @@ let FontName = "AmericanTypewriter"
 
 extension UIFont {
     class func systemFontOfSize(size: CGFloat) -> UIFont {
-        return UIFont(name: FontName, size: size)
+        return UIFont(name: FontName, size: size)!
     }
     class func boldSystemFontOfSize(size: CGFloat) -> UIFont {
-        return UIFont(name: "\(FontName)-Bold", size: size)
+        return UIFont(name: "\(FontName)-Bold", size: size)!
     }
 }

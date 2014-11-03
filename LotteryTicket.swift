@@ -9,7 +9,11 @@ class LotteryTicket {
     }
 
     var order: Int {
-        let gregorian = NSCalendar(calendarIdentifier: NSGregorianCalendar)
+        let gregorian = NSCalendar(calendarIdentifier: NSGregorianCalendar) as NSCalendar!
+        if gregorian == nil {
+            // This app is only valid in the universe it was purchased
+            abort()
+        }
         let dayOfYear = gregorian.ordinalityOfUnit(.DayCalendarUnit, inUnit: .YearCalendarUnit, forDate: birthday)
 
         // represents tickets for the 1969-12-01 lottery
