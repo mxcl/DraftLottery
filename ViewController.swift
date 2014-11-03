@@ -2,6 +2,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // Here I demonstrate using a nested View subclass to
+    // avoid the necessity of optional outlets for subviews.
+    // Also—as a bonus—we are more MVC.
+
     class View: UIView {
         let picker: YearlessDatePicker
         let button: AYVibrantButton
